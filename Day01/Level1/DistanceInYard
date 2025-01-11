@@ -1,0 +1,11 @@
+import java.util.*;
+class DistanceInYard{
+    public static void main(String args[]){
+	    Scanner sc=new Scanner(System.in);
+		double distanceInFeet= sc.nextDouble();
+		double distanceInYard = distanceInFeet/3;
+		double distanceInMiles = distanceInYard/1760;
+		sc.close();
+		
+	}
+}
